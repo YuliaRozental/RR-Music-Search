@@ -6,6 +6,7 @@ import AlbumView from './components/AlbumView'
 import ArtistView from './components/ArtistView'
 import { Fragment } from 'react/cjs/react.production.min'
 
+
 function App() {
     let [search, setSearch] = useState('')
     let [message, setMessage] = useState('Search for Music!')
